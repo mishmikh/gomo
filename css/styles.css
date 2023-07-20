@@ -25,6 +25,28 @@ text-align: center;
 color: #FF9431;
 }
 
+#recipe{
+position: absolute;
+left: 2.5%;
+width: 94.5%;
+height: 30%;
+top: 40%;
+
+background: #2A2222;
+border: 5px solid #FF9431;
+border-radius: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 300%;
+line-height: 103%;
+display: absolute;
+align-to: center;
+text-align: center;
+
+color: #FF9431;
+}
 
 #Container{
 box-sizing: border-box;
