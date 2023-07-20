@@ -30,7 +30,7 @@ position: absolute;
 left: 2.5%;
 width: 94.5%;
 height: 30%;
-bottom: 25%;
+bottom: -35%;
 
 background: #2A2222;
 border: 5px solid #FF9431;
@@ -39,7 +39,7 @@ border-radius: 15px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 300;
-font-size: 100%;
+font-size: 200%;
 line-height: 100%;
 display: absolute;
 align-to: center;
