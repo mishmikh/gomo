@@ -38,7 +38,8 @@ border-radius: 15px;
 
 font-family: 'Inter';
 font-style: normal;
-font-size: 40px;
+font-size: 1.5em;
+font-weight: 700;
 line-height: 100%;
 display: absolute;
 align-to: center;
@@ -157,7 +158,8 @@ border-radius: 15px;
 
 font-family: 'Inter';
 font-style: normal;
-font-size: 65px;
+font-size: 1.5em;
+font-weight: 700;
 line-height: 103%;
 display: absolute;
 align-to: center;
