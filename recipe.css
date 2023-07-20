@@ -1,0 +1,147 @@
+body{
+    background: #000000;
+}
+
+#header{
+position: absolute;
+left: 2.5%;
+width: 94.5%;
+height: 10%;
+top: 2.5%;
+
+background: #2A2222;
+border: 5px solid #FF9431;
+border-radius: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 300%;
+line-height: 103%;
+display: absolute;
+align-to: center;
+text-align: center;
+
+color: #FF9431;
+}
+
+
+#Container{
+box-sizing: border-box;
+
+position: absolute;
+right: 5%;
+
+top: 12%;
+
+
+
+background: #000000;
+
+
+font-family: 'Inter';
+}
+
+.form {
+  position: relative;
+  width: 95:;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form_input,
+.form_textarea {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 8px 16px;
+  transition: transform 0.3s ease-out;
+
+  background: #2A2222;
+border: 5px solid #FF9431;
+border-radius: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 300%;
+line-height: 103%;
+display: absolute;
+align-to: center;
+text-align: center;
+
+color: #FF9431;
+}
+
+.form_input::-webkit-input-placeholder,
+.form_textarea::-webkit-input-placeholder {
+  opacity: 0.6;
+  color:  #FF9431;
+}
+
+.form_input:focus,
+.form_textarea:focus {
+  transition: transform 0.3s ease-out;
+  transform: scale(1.02, 1.02);
+}
+
+.form_textarea {
+  resize: none;
+}
+
+.form_button {
+  display: inline-block;
+  padding: 12px 32px;
+  transition: all 0.3s ease-out;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  background-color: #02f;
+  background-clip: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.form_button:hover {
+  transition: all 0.3s ease-out;
+  transform: scale(1.02, 1.02);
+  box-shadow: #FF9431 0 0 16px 2px;
+}
+
+.black {
+  color: #000;
+}
+
+.white {
+  color: #fff;
+}
+
+
+#footer{
+box-sizing: border-box;
+
+position: absolute;
+left: 2.5%;
+width: 95%;
+height: 20%;
+bottom: 2.5%;
+
+background: #2A2222;
+border: 5px solid #FF9431;
+border-radius: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 300%;
+line-height: 103%;
+display: absolute;
+align-to: center;
+text-align: center;
+
+color: #FF9431;
+}
